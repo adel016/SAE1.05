@@ -10,6 +10,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.section1{
+    padding: 40px 80px;
+}
+
 /* Bouton */
 .btn {
     cursor: pointer;
@@ -41,6 +45,8 @@
     box-shadow: rgba(0, 0, 0, 0.3);
     z-index: 999;
     position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar{
@@ -116,4 +122,63 @@
 #acceuil button{
     margin-top: 20px;
     font-size: 15px;
+}
+
+/* Options */
+
+#option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#option .opt-box{
+    text-align: center;
+    padding: 25px 15px;
+    border: 1px solid #00ddff;
+    margin: 15px 0;
+    border-radius: 4px;
+    width: 180px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+#option .opt-box:hover {
+    transform: scale(1.2);
+}
+
+#option .opt-box img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+#option .opt-box h6 {
+    font-size: 13px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;;
+    background-color: #fddde4;
+    display: inline-block;
+    padding: 6px 8px 6px 8px;
+}
+
+#option .opt-box:nth-child(2) h6 {
+    background-color: #cdebbc;
+}
+
+#option .opt-box:nth-child(3) h6 {
+    background-color: #d1e8f2;
+}
+
+#option .opt-box:nth-child(4) h6 {
+    background-color: #cdd4f8;
+}
+
+#option .opt-box:nth-child(5) h6 {
+    background-color: #f6dbf6;
+}
+
+#option .opt-box:nth-child(6) h6 {
+    background-color: #fff2e5;
 }
