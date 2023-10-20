@@ -182,3 +182,9 @@
 #option .opt-box:nth-child(6) h6 {
     background-color: #fff2e5;
 }
+
+/* Products */
+
+#product1{
+    text-align: center;
+}
